@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bibliotech — Livros grátis de TI</title>
+    <meta
+      name="description"
+      content="Bibliotech: carrossel de livros de Programação e Redes — 100% HTML + CSS, sem JavaScript."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-wrap">
+        <h1 class="logo">📚 Bibliotech</h1>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- =========================
+         SEÇÃO: PROGRAMAÇÃO
+    ========================== -->
+      <section id="programacao" class="section">
+        <header class="section-head">
+          <h2>Programação</h2>
+          <p class="texto-resumo">
+            Programar é transformar ideias em código. Venha aprender as
+            tecnologias que movem o mundo digital!
+          </p>
+        </header>
+
+        <h3 class="subtitulo">Livros de Programação</h3>
+
+        <!-- Carrossel -->
+        <div class="carousel" aria-label="Carrossel de livros de Programação">
+          <article id="prog-1" class="card">
+            <div class="cover cover--grad1" aria-hidden="true">Git</div>
+            <h3 class="card-title">Pro Git (pt-BR)</h3>
+            <p class="card-desc">
+              Livro completo sobre Git, branching, workflows e Git internals.
+            </p>
+            <a
+              class="btn"
+              href="https://git-scm.com/book/pt-br/v2"
+              target="_blank"
+              rel="noopener"
+              >Ler grátis</a
+            >
+          </article>
+
+          <article id="prog-2" class="card">
+            <div class="cover cover--grad2" aria-hidden="true">Py</div>
+            <h3 class="card-title">Pense em Python (tradução)</h3>
+            <p class="card-desc">
+              Introdução à lógica e à programação usando Python.
+            </p>
+            <a
+              class="btn"
+              href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-pt_BR.md#python"
+              target="_blank"
+              rel="noopener"
+              >Coleções em pt-BR</a
+            >
+          </article>
+
+          <article id="prog-3" class="card">
+            <div class="cover cover--grad3" aria-hidden="true">JS</div>
+            <h3 class="card-title">Livros e Guias de JavaScript</h3>
+            <p class="card-desc">
+              Guia curado com livros e anotações gratuitos (pt-BR).
+            </p>
+            <a
+              class="btn"
+              href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-pt_BR.md#javascript"
+              target="_blank"
+              rel="noopener"
+              >Ver lista</a
+            >
+          </article>
+
+          <article id="prog-4" class="card">
+            <div class="cover cover--grad4" aria-hidden="true">Web</div>
+            <h3 class="card-title">Desenvolvimento Web</h3>
+            <p class="card-desc">
+              Materiais abertos de HTML, semântica, acessibilidade e CSS.
+            </p>
+            <a
+              class="btn"
+              href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-pt_BR.md#html--css"
+              target="_blank"
+              rel="noopener"
+              >Ver materiais</a
+            >
+          </article>
+        </div>
+
+        <!-- Paginação por pontos (âncoras) sem JS -->
+        <nav class="dots" aria-label="Paginação programação">
+          <a href="#prog-1" aria-label="Ir ao item 1"></a>
+          <a href="#prog-2" aria-label="Ir ao item 2"></a>
+          <a href="#prog-3" aria-label="Ir ao item 3"></a>
+          <a href="#prog-4" aria-label="Ir ao item 4"></a>
+        </nav>
+      </section>
+
+      <!-- =========================
+         SEÇÃO: REDES
+    ========================== -->
+      <section id="redes" class="section">
+        <header class="section-head">
+          <h2>Redes</h2>
+          <p class="texto-resumo">
+            Antes do Wi-Fi existir, alguém precisou configurar tudo. Descubra o
+            universo dos protocolos e da infraestrutura que te conecta ao mundo.
+          </p>
+        </header>
+
+        <h3 class="subtitulo">Livros de Redes para Computador</h3>
+
+        <!-- Carrossel -->
+        <div class="carousel" aria-label="Carrossel de livros de Redes">
+          <article id="redes-1" class="card">
+            <div class="cover cover--grad5" aria-hidden="true">TCP/IP</div>
+            <h3 class="card-title">Introdução a Redes (Nilo)</h3>
+            <p class="card-desc">
+              Modelos, TCP/IP, endereçamento, protocolos e fundamentos.
+            </p>
+            <a
+              class="btn"
+              href="https://www.nilo.pro.br/redes/"
+              target="_blank"
+              rel="noopener"
+              >Acessar grátis</a
+            >
+          </article>
+
+          <article id="redes-2" class="card">
+            <div class="cover cover--grad6" aria-hidden="true">RFC</div>
+            <h3 class="card-title">Coletânea de materiais de Redes</h3>
+            <p class="card-desc">Livros/aulas e referências em pt-BR.</p>
+            <a
+              class="btn"
+              href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-pt_BR.md#redes-e-internet"
+              target="_blank"
+              rel="noopener"
+              >Ver coleção</a
+            >
+          </article>
+
+          <article id="redes-3" class="card">
+            <div class="cover cover--grad7" aria-hidden="true">Seg</div>
+            <h3 class="card-title">Segurança de Redes</h3>
+            <p class="card-desc">
+              Materiais abertos de segurança, criptografia e hardening.
+            </p>
+            <a
+              class="btn"
+              href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-pt_BR.md#seguranca"
+              target="_blank"
+              rel="noopener"
+              >Ver materiais</a
+            >
+          </article>
+
+          <article id="redes-4" class="card">
+            <div class="cover cover--grad8" aria-hidden="true">RC</div>
+            <h3 class="card-title">Redes de Computadores</h3>
+            <p class="card-desc">
+              Fundamentos, protocolos, topologias e práticas em redes modernas.
+            </p>
+            <a
+              class="btn"
+              href="https://www.kufunda.net/publicdocs/Redes%20de%20Computadores%20%28Douglas%20Rocha%20Mendes%29.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Ler grátis
+            </a>
+          </article>
+        </div>
+
+        <nav class="dots" aria-label="Paginação redes">
+          <a href="#redes-1" aria-label="Ir ao item 1"></a>
+          <a href="#redes-2" aria-label="Ir ao item 2"></a>
+          <a href="#redes-3" aria-label="Ir ao item 3"></a>
+        </nav>
+      </section>
+
+      <!-- SOBRE -->
+      <section id="sobre" class="about">
+        <h2>Sobre o projeto</h2>
+        <p>
+          <strong>Tornar o conhecimento acessível.</strong>
+          Esse é o propósito do Bibliotech: compilar livros gratuitos de
+          tecnologia em um único ambiente digital, facilitando a jornada de quem
+          deseja aprender, evoluir e entrar no mundo da TI.
+        </p>
+      </section>
+
+      <!-- CONTATO -->
+      <section id="contato">
+        <div class="sobre-contact bordas-sombreadas">
+          <h2 class="titulo">Contato</h2>
+          <p class="paragrafo">Conecte-se comigo:</p>
+
+          <ul class="sobre-social">
+            <li>
+              <a
+                class="icon-link"
+                href="https://github.com/FabraOliveira"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="./img/github.png" alt="GitHub" />
+              </a>
+            </li>
+            <li>
+              <a
+                class="icon-link"
+                href="https://www.linkedin.com/in/fabricio-de-oliveira-bimbi-516719223/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="./img/linkedin.png" alt="LinkedIn" />
+              </a>
+            </li>
+            <li>
+              <a
+                class="icon-link"
+                href="https://www.instagram.com/fabra.oliveira/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="./img/instagram.png" alt="Instagram" />
+              </a>
+            </li>
+            <li>
+              <a
+                class="icon-link"
+                href="https://www.youtube.com/@fabraoliveira"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="./img/youtube.png" alt="YouTube" />
+              </a>
+            </li>
+            <li class="tk-dark">
+              <a
+                class="icon-link"
+                href="https://www.tiktok.com/@fabra.oliveira?_t=ZM-8uHXRP0Fs29&_r=1"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="./img/tik-tok--escuro.png" alt="TikTok (escuro)" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>&copy; 2025 Bibliotech — feito com HTML + CSS puro.</small>
+      </div>
+    </footer>
+  </body>
+</html>
