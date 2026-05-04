@@ -4,7 +4,7 @@ Projeto simples desenvolvido como parte dos meus estudos em **HTML** e **CSS**.
 
 O objetivo foi praticar a criação de páginas web, desenvolvendo um site focado em reunir livros gratuitos de tecnologia em um único ambiente, facilitando o acesso a materiais de estudo.
 
-[🔗 Acesse o portfólio online](https://fabraoliveira.github.io/Bibliotech/)
+[🔗 Acesse site online](https://fabraoliveira.github.io/Bibliotech/)
 
 ## 🛠️ Tecnologias utilizadas
 
